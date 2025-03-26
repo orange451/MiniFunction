@@ -6,6 +6,7 @@ Usage:
 local Function = require(script.Parent.Function)
 
 local test_func = Function.new()
+
 test_func:SetOnInvoke(function()
   task.wait(0.5)
   return "Hello World"
